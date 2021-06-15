@@ -1,0 +1,264 @@
+/*body{
+    margin: 0;
+}
+
+.main--header{
+    background: #65c565;
+    width: 100%;
+    position: fixed;
+}
+
+.list{
+    list-style: none;
+}
+
+.list--item {
+   display: inline-block;
+   margin: 0 8px;
+}
+
+.list--item a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.main--div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main--div a{
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 0 16px;
+}
+
+.main--div img{
+    height: 30px;
+    margin-left: 15px;
+}
+
+.main--nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 88px);
+    vertical-align: middle;
+}
+
+.main--nav a:hover,
+.main--nav a:active{
+    color: white;
+    border-bottom: white 4px solid;
+}
+
+.list--item__cta a{
+    color: white;
+    background: #000000;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.list--item__cta a:hover,
+.list--item__cta a:active{
+    color: black;
+    background: white;
+    border-bottom: none;
+}
+*/
+.main--title{
+    background:url(sadboy.png);
+    padding: 10px;
+    width: 100%;
+    height: 528px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+.main--title h1{
+    position: absolute;
+   /* top: 60px;*/
+    color: black;
+    font-size: 1.2rem;
+}
+
+.second--title{
+    color: #badaba;
+    text-align: center;
+}
+
+.plan__list{
+    text-align: center;
+    width: 100%;
+}
+
+.plans{
+    background: #badaba;
+    padding: .4rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (min-Width:40rem){
+    .plans{
+        display: inline-block;
+        vertical-align: middle;
+        padding: .9rem;
+        min-width:12rem;
+        max-width: 20rem;
+        width: 15%;
+    }
+
+    .main--title h1{
+        font-size:3rem;
+        text-align: center;
+        margin: 0;
+    }
+    .plan__list{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    #premium{
+        margin: .25rem;
+    }
+}
+
+.highlighe{
+    background-color: #65c565;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(2, 58, 32, 0.5);
+}
+
+.highlighe__title{
+    background: white;
+    color: #156315;
+    font: bold;
+    padding: .5rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(2, 58, 32, 0.5);
+}
+
+.list--featuers{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list--featuers li{
+    padding: 8px 0px;
+}
+
+.plans--price{
+    color: #858585;
+}
+
+.plans--title{
+    color: #0c3a0c;
+}
+
+.highlighe .plans--price{
+    color: #091b09;
+}
+
+.highlighe .plans--title{
+    color: white;
+}
+
+.button{
+    background: #0c3a0c;
+    color: white;
+    border: #0c3a0c solid 1.5px;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active{
+    background: white;
+    color: #0c3a0c;
+}
+
+.button:focus{
+    outline: none;
+}
+
+#Key-features{
+    background: #c95d5d;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#Key-features .second--title{
+    color: white ;
+    font: 22px;
+    margin: 20px;
+}
+
+.key-feature__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:40rem){
+    .key-feature{
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+}
+
+.key-feature__description{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.key-feature__image{
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.main-footer{
+    background: black;
+    padding: 32px;
+    margin-top: 40px;
+}
+
+.footer-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-list__item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-list__item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list__item a:hover,
+.footer-list__item a:active{
+    color: #ccc;
+}
